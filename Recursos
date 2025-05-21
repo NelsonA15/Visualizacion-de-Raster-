@@ -4,7 +4,7 @@ Este repositorio presenta un tutorial detallado para visualizar datos raster geo
 
 ---
 
-## 📌 Objetivo
+## Objetivo
 
 Visualizar datos satelitales o meteorológicos contenidos en archivos raster `.tif`, y representarlos en mapas georreferenciados utilizando celdas representativas en bloques de 3x3 píxeles. Se incluye:
 
@@ -15,9 +15,9 @@ Visualizar datos satelitales o meteorológicos contenidos en archivos raster `.t
 
 ---
 
-## 📦 Requisitos
+## Requisitos
 
-### 🔧 Librerías de R
+### Librerías de R
 
 Este tutorial utiliza los siguientes paquetes de R:
 
