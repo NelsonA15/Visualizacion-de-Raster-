@@ -1,0 +1,32 @@
+# Visualización de Datos Raster sobre Mapas de Google
+
+Este repositorio presenta un tutorial detallado para visualizar datos raster geoespaciales utilizando el paquete `ggmap` en R. La visualización se realiza sobre mapas base de Google Maps y se complementa con análisis espacial de representatividad local mediante bloques 3x3.
+
+---
+
+## 📌 Objetivo
+
+Visualizar datos satelitales o meteorológicos contenidos en archivos raster `.tif`, y representarlos en mapas georreferenciados utilizando celdas representativas en bloques de 3x3 píxeles. Se incluye:
+
+- Recorte espacial de raster para enfoque regional (ej. CDMX).
+- Análisis de representatividad del píxel central y métodos ponderados.
+- Mapas tipo "heatmap" sobre fondo de Google Maps.
+- Visualización de datos reconstruidos (imputados) por bloques.
+
+---
+
+## 📦 Requisitos
+
+### 🔧 Librerías de R
+
+Este tutorial utiliza los siguientes paquetes de R:
+
+```r
+library(raster)       # Lectura y manipulación de datos raster
+library(ggmap)        # Visualización con mapas base de Google
+library(dplyr)        # Manipulación de datos
+library(viridis)      # Escalas de color
+library(ggplot2)      # Gráficos
+library(matrixStats)  # Estadística por bloques
+library(fields)       # Funciones espaciales
+library(imager)       # Procesamiento de imágenes
